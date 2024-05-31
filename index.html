@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./CSS/Styles.css"
+      rel="stylesheet"
+    />
+    <title>Login Cajero</title>
+  </head>
+  <body>
+    
+    <strong id="error_login" class="alert alert-danger hidden">MENSAJE DE ERROR</strong>
+    <!-- id: que debe ser unico -->
+    <!-- reglas de accesibilidad, el label o el placeholder -->
+    <!-- que el boton debe ser de tipo submit -->
+    <!-- eventos del dom => sumbit -->
+    <form id="login">
+      <span class="logo-vago-login">🏦</span>
+      <input id="login_cuenta" name="email" placeholder="Ingresa tu numero de cuenta" autocomplete="new-username" />
+      <input id="password" name="password" type="password" placeholder="password" autocomplete="new-password"/>
+      <!-- por default el primer boton de una etiqueta form es de tipo input  -->      
+      <button type="submit">Ingresar</button>
+    </form>
+    <script type="module" src="./login.js"></script>
+  </body>
+</html>

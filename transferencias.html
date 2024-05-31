@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/pantalla.css">
+    <title>Transferencias</title>
+</head>
+<body>
+    <div class="parrilla">
+        <h2>Transferencias</h2>
+        <form id="form_transfer">
+            <span id="saldo">Saldo: $</span>
+            <input type="text" id="cuenta" name="cuenta" placeholder="Ingresa la cuenta a transferir">
+            <input type="text" id="cantidad" name="cantidad" placeholder="Canditad: $">
+            <div class="botones">
+                <button type="reset">Borrar</button>
+                <button type="submit" id="btntransfer">Transferir</button>
+                <button type="button" id="salir">Salir</button> 
+            </div>
+            <p id="movimientos"></p>          
+        </form>
+    </div>
+    <script src="./transferencias.js"></script>
+</body>
+</html>

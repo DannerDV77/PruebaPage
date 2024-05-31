@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/pantalla.css">
+    <title>Retiros</title>
+</head>
+<body>
+    <div class="parrilla">
+        <h2>Retiros</h2>
+        <form id="form_retiro">
+            <span id="saldo">Saldo: $</span>
+            <input name="retiro" id="cantidad_retiro" placeholder="Canditad a retirar: $">
+            <div class="botones">
+                <button type="reset">Borrar</button>
+                <button type="submit" id="btnretiro">Retirar</button>
+                <button type="button" id="salir">Salir</button> 
+            </div>
+            <p id="movimientos"></p>          
+        </form>
+    </div>
+    <script src="./retiros.js"></script> 
+</body>
+</html>
